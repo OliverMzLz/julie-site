@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>If You Ever Forgot – For Julie 💖</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: #fff0f5;
+      font-family: 'Comic Sans MS', cursive;
+      color: #ff66a3;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 30px;
+    }
+    .reminder-container {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .reminder {
+      background: #ffe6f0;
+      border: 2px dashed #ffb6d9;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 20px 0;
+      box-shadow: 0 4px 8px #f4a6c2;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .reminder:hover {
+      background-color: #ffdceb;
+    }
+    .reminder-text {
+      display: none;
+      font-size: 1.2em;
+      margin-top: 15px;
+      transition: opacity 0.3s ease;
+    }
+    .back-button {
+      background-color: #ffb6d9;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      margin-top: 40px;
+      font-family: 'Comic Sans MS', cursive;
+      cursor: pointer;
+      box-shadow: 0 4px 6px #f4a6c2;
+      transition: all 0.3s ease;
+    }
+    .back-button:hover {
+      background-color: white;
+      color: #ff69b4;
+    }
+  </style>
+</head>
+<body>
+
+
+  <h1>If You Ever Forgot...</h1>
+
+  <a href="JuliesStuff.html">
+    <button class="back-button">← Back to Home</button>
+  </a>
+
+  <div class="reminder-container">
+
+    <div class="reminder" onclick="toggleText(this)">
+      💭 If you ever forgot how brave you are
+      <div class="reminder-text">
+        Just remember all the things you've gotten through without ever needing to tell the world how hard it was.
+      </div>
+    </div>
+
+    <div class="reminder" onclick="toggleText(this)">
+      🌙 If you ever forgot how beautiful your silence is
+      <div class="reminder-text">
+        I’ve always found peace in your pauses and comfort in your silence.
+      </div>
+    </div>
+
+    <div class="reminder" onclick="toggleText(this)">
+      🫶 If you ever forgot how much you matter
+      <div class="reminder-text">
+        Know that I waited half a year for you, and would have waited years if it meant, I finally hear from you.
+      </div>
+    </div>
+
+    <div class="reminder" onclick="toggleText(this)">
+      🌸 If you ever forgot your worth
+      <div class="reminder-text">
+        Know that its okay, because I don't think anything could ever equate to the worth that you have to me or the world.
+      </div>
+    </div>
+
+    <div class="reminder" onclick="toggleText(this)">
+      💌 If you ever forgot that you are missed.
+      <div class="reminder-text">
+        I hope you remember, I used to listen to your playlist you made me all the time, and would constantly re-read our old text.
+      </div>
+    </div>
+
+    <div class="reminder" onclick="toggleText(this)">
+      🦋 If you ever forgot how much you mean to me
+      <div class="reminder-text">
+        When you were gone, I spoke to God about you, and only hoped that you were okay.
+      </div>
+    </div>
+
+    <div class="reminder" onclick="toggleText(this)">
+      🎠 If you ever forgot how much joy you bring
+      <div class="reminder-text">
+        Remember that even your smallest laugh changed my whole day.
+      </div>
+    </div>
+
+    <div class="reminder" onclick="toggleText(this)">
+      💬 If you ever forgot that you don’t need to be perfect
+      <div class="reminder-text">
+        Remember: I never wanted perfect, I just wanted <em>you</em>.
+      </div>
+    </div>
+
+    <div class="reminder" onclick="toggleText(this)">
+      🧩 If you ever forgot that someone understands you
+      <div class="reminder-text">
+        Know that I always try to listen between the lines, even when you didn’t say much.
+      </div>
+    </div>
+
+    <div class="reminder" onclick="toggleText(this)">
+      🔐 If you ever forgot you’re safe with me
+      <div class="reminder-text">
+        I never needed your secrets, just your comfort in knowing I would never leave or abandon you.
+      </div>
+    </div>
+
+
+
+
+
+  </div>
+
+ 
+
+  <script>
+    function toggleText(element) {
+      const text = element.querySelector(".reminder-text");
+      text.style.display = text.style.display === "block" ? "none" : "block";
+    }
+  </script>
+
+</body>
+</html>
